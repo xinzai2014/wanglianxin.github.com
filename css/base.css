@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+    font:0.08rem/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}/*统一字，体这个好看*/
+input{
+	outline:none;	
+}
+select{
+	outline:none;
+	cursor: pointer;
+	}
+textarea{
+	resize: none;
+	font-size: 0.06rem;
+}
+h1, h2, h3, h4, h5, h6{
+	font-size:0.06rem;
+	font-weight:normal;	
+}
+a{
+	font-size:0.06rem;
+	color:#666;
+	text-decoration:none;	
+}
+
+img{
+	border:0;
+	display:block;	
+}
+ul, ol, dl, li{
+	list-style:none;	
+}
+.clearfix:after{
+	display:block;
+	content:"";
+	clear:both;	
+}
+.clearfix{
+	zoom:1;	
+}
+.fl{
+	float:left;	
+}
+.fr{
+	float:right;	
+}
+i{
+	font-style:normal;
+	}
+b{
+	font-weight:normal;
+	}
+.warper{
+	width:3.75rem;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

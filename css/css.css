@@ -1,0 +1,260 @@
+html{
+    font-size:100px;
+}
+.l_public_header{
+    width: 3.75rem;
+}
+.l_header{
+    padding-top:0.12rem;
+    width: 3.75rem;
+    height: 0.44rem;
+    color:#f8f9fb;
+    font-size: 0.18rem;
+    font-weight: bold;
+    text-align:center;
+    background:#020202;
+    position: relative;
+    z-index:9999;
+}
+.l_btn_one{
+    width: 0.22rem;
+    height: 0.22rem;
+    position: absolute;
+    top:0.14rem;
+    left:0.27rem;
+    z-index: 9999;
+}
+.l_btn_one i{
+    margin-bottom:0.05rem;
+    width: 0.22rem;
+    height: 0.02rem;
+    display: block;
+    background: #fff;
+}
+.l_btn_two{
+    width: 0.22rem;
+    height: 0.22rem;
+    background: url("../img/false.png") no-repeat;
+    -webkit-background-size:0.22rem 0.22rem;
+    background-size:0.22rem 0.22rem ;
+    position: absolute;
+    top:0.14rem;
+    left:0.27rem;
+    z-index: 9999;
+    display: none;
+}
+.l_header_top{
+    width:3.75rem;
+    height:4rem;
+    position: relative;
+    background: url("../img/banner.jpg") no-repeat;
+    background-size:3.75rem 4rem;
+}
+.l_header_title{
+    width: 2.85rem;
+    height: 0.92rem;
+    position: absolute;
+    left:0.35rem;
+    top:2.06rem;
+}
+.l_header_title_top{
+    font-size:0.16rem;
+    line-height: 0.5rem;
+    color:#f7f6fb;
+}
+.l_header_title_bot{
+    line-height: 0.42rem;
+    font-size: 0.32rem;
+    color:#fff;
+}
+.l_header_title_bot span{
+    margin-right: 0.14rem;
+    width: 1.56rem;
+    height:100%;
+    text-align: center;
+    display: inline-block;
+    background: #d30f23;
+}
+.l_public_out{
+    width: 3.75rem;
+    height:100%;
+    background: rgba(0,0,0,0.9);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    display: none;
+}
+.l_public_out ul{
+    width: 100%;
+    position:absolute;
+    top:0.64rem;
+    left:0;
+}
+.l_public_out ul li{
+    width: 100%;
+}
+.l_public_out ul li a{
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-bottom: 1px #fff solid;
+    margin: 0 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.16rem;
+}
+.l_content{
+    width: 3.75rem;
+}
+.l_content_one{
+    width:100%;
+    margin-top:0.3rem;
+}
+.l_content_one p{
+    margin:0 0.28rem;
+    line-height: 0.5rem;
+    font-size: 0.22rem;
+    color:#333;
+}
+.l_content_one p span{
+    margin-right:0.16rem;
+    display: inline-block;
+    color:#e91e32;
+}
+.l_content_one .l_red_line{
+    margin-left:0.67rem;
+    margin-bottom: 0.17rem;
+    width: 0.43rem;
+    height: 0.04rem;
+    background: #fe0000;
+}
+.l_content_one .l_content_det{
+    margin:0 0.67rem 0.32rem 0.67rem;
+    line-height:0.25rem;
+    font-size:0.12rem;
+}
+.l_content_team{
+    width:100%;
+    height:1.95rem;
+    overflow: auto;
+}
+.l_content_team ul{
+    padding:0.19rem 0;
+    margin:0 0.19rem;
+    background: #fafafa;
+    overflow: hidden;
+}
+.l_content_team ul li{
+    width: 1.15rem;
+    height:1.51rem;
+    float: left;
+}
+.l_content_team ul li .l_tuandui{
+    margin:0.18rem 0.34rem;
+    width: 0.43rem;
+    height:0.34rem;
+    display: inline-block;
+    background-image: url("../img/elite.svg") ;
+    background-size:0.43rem 0.34rem;
+}
+.l_content_team .l_title_two{
+    width:100%;
+    font-size:0.15rem;
+    line-height: 0.3rem;
+    text-align: center;
+    color:#474747;
+}
+.l_content_team .l_title_three{
+    width:100%;
+    font-size:0.15rem;
+    text-align: center;
+    color:#b6b6b6;
+}
+/*******************底部************/
+.w_content{
+    width: 3.75rem;
+}
+/*我们的愿景*/
+.w_content_wish {
+    background: #29282e;
+    width:100%;
+    color: #fff;
+    padding-top: 0.3rem;
+
+}
+.w_content_wish h3{
+    margin-left:0.275rem;
+    font-size: 0.23rem;
+    margin-bottom: 0.17rem;
+}
+.w_content_wish h3 span{
+    font-size:0.2rem;
+    margin-right:0.1rem;
+}
+.w_content_wish .w_content_s{
+    margin-left: 0.6rem;
+    width: 0.42rem;
+    height: 0.06rem;
+    background: #ffffff;
+    margin-bottom:0.27rem ;
+}
+.w_content_wish p{
+    width: 2.4rem;
+    font-size:0.15rem;
+    line-height: 0.24rem;
+    margin-left: 0.6rem;
+}
+.w_content_wish .w_content_video .w-video{
+    width: 3.2rem;
+    height: 2.04rem;
+    margin-left:0.275rem;
+    margin-bottom: 0.35rem;
+}
+/*联系我们*/
+.w_content_phone {
+    width: 100%;
+    color: #000;
+    padding-top: 0.3rem;
+}
+.w_content_phone h3{
+    margin-left:0.275rem;
+    font-size: 0.23rem;
+    margin-bottom: 0.17rem;
+}
+.w_content_phone h3 span{
+    font-size:0.2rem;
+    color: #e81f32;
+    margin-right:0.1rem;
+}
+.w_content_phone .w_content_t{
+    margin-left: 0.6rem;
+    width: 0.42rem;
+    height: 0.06rem;
+    background:red;
+    margin-bottom:0.27rem ;
+}
+.w_content_phone .p1{
+    line-height: 0.23rem;
+}
+.w_content_phone p{
+    width: 2.46rem;
+    font-size:0.15rem;
+    line-height: 0.34rem;
+    margin-left: 0.6rem;
+}
+.w_content_phone .w_content_t3{
+    margin-top: 0.19rem;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+.w_content_phone .w_content_t3 iframe{
+    width:100%;
+    height: 1.2rem;
+}
+.w_content_phone .w_content_div{
+    color: #ccc;
+    font-size: 0.13rem;
+    margin-left: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
